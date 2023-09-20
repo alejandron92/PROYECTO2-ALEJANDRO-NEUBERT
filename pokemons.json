@@ -41,10 +41,10 @@
       "id": "1213"
     },
     {
-      "nombre": "Eevee (Shiny Limited)",
-      "spritefrontal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/133.png",
-      "spriteback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/back/133.png",
-      "descripcion":"La configuración genética de Eevee le permite mutar y adaptarse enseguida a cualquier medio en el que viva. La evolución de este Pokémon es posible gracias a las radiaciones emitidas por varias piedras.",
+      "nombre": "Ditto",
+      "spritefrontal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+      "spriteback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/132.png",
+      "descripcion":"Ditto reorganiza la estructura de sus células para adoptar otras formas. Pero como intenta transformarse en algo guiándose por los datos que tenga almacenados en la memoria, habrá detalles que se le escapen.",
       "precio": "25000",
       "id": "1415"
     }

@@ -1,0 +1,160 @@
+/* FUENTES PRINCIPALES */
+
+@font-face {
+  font-family: "Pokemon Solid";
+  src: url("https://db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot");
+  src: url("https://db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon Solid")
+      format("svg");
+}
+
+/* ESTILOS GLOBALES */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Johto Mono", monospace;
+  -webkit-font-smoothing: none;
+  text-align: center;
+  -webkit-text-stroke: 0.2px #385ba9;
+}
+
+/* ESTILOS HEADER */
+
+#header {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2f2f2f;
+  color: #f5f5f5;
+}
+
+#logo {
+  font-family: "Pokemon Solid";
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+  color: #f7c505;
+}
+
+#fraseLogo {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+/* ESTILOS MAIN */
+
+#presentacion {
+  padding: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2f2f2f;
+  background-color: #f7c505;
+}
+
+.slogan {
+  font-size: 1rem;
+}
+
+.nuestrosProductos {
+  font-size: 1.5rem;
+}
+
+#eevee {
+  padding: 1rem;
+}
+
+/* ESTILOS PRODUCTOS */
+
+.monstri {
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #f7c505;
+  border-color: #385ba9;
+  border-width: 0.3rem;
+  border-style: solid;
+  border-radius: 5%;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.descripcionMonstri {
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #f7c505;
+  border-color: #385ba9;
+  border-width: 0.3rem;
+  border-style: solid;
+  border-radius: 5%;
+  display: flex;
+  flex-direction:column;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.parrafoProducto {
+  padding:1rem;
+}
+
+/* ESTILOS BOTON */
+
+.verMas {
+  width: 4.2rem;
+  height: 2.5rem;
+  margin-left: 0.9rem;
+  margin-right: 0.9rem;
+  border-color: #385ba9;
+  background-color: white;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #2f2f2f;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-radius: 10%;
+  font-size: 0.8rem;
+  color:#385ba9;
+}
+
+/* ESTILOS FOOTER */
+
+footer {
+  padding-top:1rem;
+  background-color:#f7c505;
+  font-size: 1rem;
+  font-family: "Johto Mono", monospace;
+  -webkit-font-smoothing: none;
+}
+#redes {
+  list-style:none;
+  padding:1rem;
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  padding:0.5rem;
+}
+
+.iconoSocialMedia {
+  width: 75%;
+}
+
+#copyright {
+  font-size: 0.6rem;
+  padding:1rem;
+}

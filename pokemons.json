@@ -1,0 +1,52 @@
+{
+    "pokemons": [
+    {
+      "nombre": "Bulbasaur",
+      "spritefrontal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "spriteback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png",
+      "descripcion": "A Bulbasaur es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol.",
+      "precio": "15000",
+      "id": "123"
+    },
+    {
+      "nombre": "Charmander",
+      "spritefrontal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "spriteback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/4.png",
+      "descripcion": "La llama que tiene en la punta de la cola arde según sus sentimientos. Llamea levemente cuando está alegre y arde vigorosamente cuando está enfadado.",
+      "precio": "15000",
+      "id": "456"
+    },
+    {
+      "nombre": "Squirtle",
+      "spritefrontal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "spriteback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/7.png",
+      "descripcion": "El caparazón de Squirtle no le sirve de protección únicamente. Su forma redondeada y las hendiduras que tiene le ayudan a reducir su resistencia al agua y le permiten nadar a gran velocidad.",
+      "precio": "15000",
+      "id": "789"
+    },
+    {
+      "nombre": "Pikachu",
+      "spritefrontal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+      "spriteback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png",
+      "descripcion": "Cada vez que Pikachu se encuentra con algo nuevo, le lanza una sacudida eléctrica. Si ves alguna baya chamuscada, seguro que ha sido Pikachu; a veces no controla la intensidad de la descarga.",
+      "precio": "15000",
+      "id": "1011"
+    },
+    {
+      "nombre": "Eevee",
+      "spritefrontal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+      "spriteback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/133.png",
+      "descripcion":"La configuración genética de Eevee le permite mutar y adaptarse enseguida a cualquier medio en el que viva. La evolución de este Pokémon es posible gracias a las radiaciones emitidas por varias piedras.",
+      "precio": "15000",
+      "id": "1213"
+    },
+    {
+      "nombre": "Eevee (Shiny Limited)",
+      "spritefrontal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/133.png",
+      "spriteback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/back/133.png",
+      "descripcion":"La configuración genética de Eevee le permite mutar y adaptarse enseguida a cualquier medio en el que viva. La evolución de este Pokémon es posible gracias a las radiaciones emitidas por varias piedras.",
+      "precio": "25000",
+      "id": "1415"
+    }
+]
+}

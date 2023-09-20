@@ -43,6 +43,7 @@
   font-size: 2.5rem;
   letter-spacing: 0.2rem;
   color: #f7c505;
+  padding-bottom:1rem;
 }
 
 #fraseLogo {
@@ -109,6 +110,9 @@
 .parrafoProducto {
   padding:1rem;
 }
+#botonAtras {
+  padding-bottom:1rem;
+}
 
 /* ESTILOS BOTON */
 
@@ -119,12 +123,17 @@
   margin-right: 0.9rem;
   border-color: #385ba9;
   background-color: white;
-  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #2f2f2f;
+  box-shadow: 0rem 0.1rem 0.1rem 0.1rem #2f2f2f;
   border-width: 0.1rem;
   border-style: solid;
   border-radius: 10%;
   font-size: 0.8rem;
   color:#385ba9;
+}
+
+.verMas:hover {
+  background-color: #EBE9F6;
+  box-shadow: 0.1rem 0.2rem 0.2rem 0.1rem #2f2f2f;
 }
 
 /* ESTILOS FOOTER */
@@ -154,6 +163,9 @@ ul {
   width: 75%;
 }
 
+#ubicacion {
+  font-size:1.5rem;
+}
 #copyright {
   font-size: 0.6rem;
   padding:1rem;

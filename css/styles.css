@@ -44,6 +44,7 @@
   letter-spacing: 0.2rem;
   color: #f7c505;
   padding-bottom:1rem;
+    -webkit-text-stroke: 0.1rem #385ba9;
 }
 
 #fraseLogo {
@@ -215,5 +216,13 @@ ul {
     justify-content: space-between;
     align-items: center;
     font-size: 1rem;
+  }
+
+  .verMas {
+    font-size:1rem;
+    width: 8rem;
+    height: 3rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
   }
 }

@@ -119,8 +119,9 @@
 .parrafoProducto {
   padding:1rem;
 }
+
 #botonAtras {
-  padding-bottom:1rem;
+  margin-bottom:1rem;
 }
 
 /* ESTILOS BOTON */

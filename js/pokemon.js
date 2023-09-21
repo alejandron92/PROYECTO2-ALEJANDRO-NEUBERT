@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
       const contenedorDetallesPokemon = document.createElement("div");
       contenedorDetallesPokemon.classList.add("descripcionMonstri");
       contenedorDetallesPokemon.innerHTML = `
+      <h2>${pokemonSeleccionado.nombre}</h2>
       <img src="${pokemonSeleccionado.spritefrontal}">
       <img src="${pokemonSeleccionado.spriteback}">
-      <h2>${pokemonSeleccionado.nombre}</h2>
       <p class="parrafoProducto">Descripción: ${pokemonSeleccionado.descripcion}</p>
       <p class="parrafoProducto">Precio: $${pokemonSeleccionado.precio}.</p>
       `;

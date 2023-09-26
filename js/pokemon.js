@@ -16,10 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
       contenedorDetallesPokemon.classList.add("descripcionMonstri");
       contenedorDetallesPokemon.innerHTML = `
       <h2>${pokemonSeleccionado.nombre}</h2>
-      <img src="${pokemonSeleccionado.spritefrontal}">
-      <img src="${pokemonSeleccionado.spriteback}">
-      <p class="parrafoProducto">Descripción: ${pokemonSeleccionado.descripcion}</p>
-      <p class="parrafoProducto">Precio: $${pokemonSeleccionado.precio}.</p>
+      <img src="${pokemonSeleccionado.spritefrontal}" alt="${pokemonSeleccionado.nombre}">
+      <img src="${pokemonSeleccionado.spriteback}" alt="${pokemonSeleccionado.nombre}">
+      <p class="parrafoProducto">${pokemonSeleccionado.descripcion}</p>
+      <p class="precio">Precio: $${pokemonSeleccionado.precio}.</p>
       `;
       detallePokemon.appendChild(contenedorDetallesPokemon);
     }

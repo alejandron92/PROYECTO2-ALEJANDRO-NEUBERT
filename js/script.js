@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const divItem = document.createElement("div");
       divItem.classList.add("monstri");
       divItem.innerHTML = `
-      <img src="${pokemon.spritefrontal}"></img>
+      <img src="${pokemon.spritefrontal}" alt="${pokemon.nombre}"></img>
       <p>Tamagotchi ${pokemon.nombre}</p>
       <button class="verMas" id="${pokemon.id}">Detalles</button>`;
       divItem.addEventListener("click", () => {

@@ -103,6 +103,11 @@
 
 /* ESTILOS DESCRIPCION PRODUCTO */
 
+#detallePokemon {
+  display: flex;
+  justify-content: center;
+}
+
 .descripcionMonstri {
   margin: 1rem;
   padding: 0.5rem;
@@ -113,10 +118,12 @@
   border-radius: 5%;
   display: flex;
   flex-direction: column;
-  align-content: space-between;
-  justify-content: space-between;
+  align-content: center;
+  justify-content: center;
   align-items: center;
   font-size: 1rem;
+  max-height: 45%;
+  max-width: 45%;
 }
 
 .parrafoProducto {
